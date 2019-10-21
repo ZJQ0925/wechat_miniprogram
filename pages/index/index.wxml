@@ -1,0 +1,56 @@
+<!-- 导航栏 -->
+<view class='nav'>
+	<navigator class='nav-item' wx:for='{{tops}}' wx:key='tops.id' url='{{item.href}}'>
+			{{item.title}}
+	</navigator>
+</view>
+<view class='index-content'>
+
+
+<!-- 搜索框 -->
+	<view>
+		<input type='text' class='search' placeholder='搜索框'></input>
+	</view>
+<!-- 轮播图 -->
+<view class='container'>
+		<swiper autoplay='3000' class='swiper'>
+			<swiper-item wx:for="{{list}}" wx:key="item.id">
+				<navigator url='{{item.href}}'>
+					<image src='{{item.img_url}}' lazy-load mode='aspectFill'></image>
+				</navigator>
+			</swiper-item>
+		</swiper>
+</view>
+<view class='divider'></view>
+<!-- 九宫格 -->
+<view class="sudoku">
+    <view class="sudoku-item" wx:for="{{sudoku}}" wx:key="item.id">
+				<image src='{{item.img_url}}' lazy-load mode='aspectFill'></image>
+			<view>
+				<text>{{item.title}}</text>
+			</view>
+		</view>
+</view>
+<!-- 限时抢 -->
+<view class='fl-sal'>限时抢</view>
+<!-- 商品推荐页 -->
+<view class='shop' wx:for='{{goods}}' wx:key="item.id">
+	<view class='shop-img'>
+		<image src='{{item.img_url}}' class='shop-img'></image>
+	</view>
+	<view class='shop-info'>
+		<text class='ell'>标题</text>
+		<view></view>
+		<text class='red countDown'>距离结束:<text>h</text><text>m</text><text>s</text></text>
+		<view></view>
+		<text class='red new-price'>价格￥88.00</text>
+		<text class='old-price'>￥88.00</text>
+		<text class='btn pos-ab'>查看详情</text>
+	</view>
+	<!-- <view class='shop-star'>
+			<view class='star-before' style='width:{{item.star}}%'>❤❤❤❤❤</view>
+			<view class='star-after'>❤❤❤❤❤</view>
+	</view> -->
+	<view ></view>
+</view>
+</view>

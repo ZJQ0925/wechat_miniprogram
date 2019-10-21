@@ -1,0 +1,49 @@
+{
+	"pages": [
+		"pages/personal/personal",
+		"pages/index/index",
+		"pages/sort/sort",
+		"pages/cart/cart",
+		"pages/hot/hot",
+		"pages/hotlist/hotlist",
+		"pages/ms/ms",
+		"pages/detail/detail",
+		"pages/xmas/xmas"
+	],
+	"window": {
+		"backgroundColor": "white",
+		"backgroundTextStyle": "#FFCC99",
+		"navigationBarBackgroundColor": "#f2efe6",
+		"navigationBarTitleText": "橘子藏品馆",
+		"navigationBarTextStyle": "black",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "商城",
+				"iconPath": "/pages/img/icon/home.png",
+				"selectedIconPath": "/pages/img/icon/home-active.png"
+			},
+			{
+				"pagePath": "pages/sort/sort",
+				"text": "分类",
+				"iconPath": "/pages/img/icon/sort.png",
+				"selectedIconPath": "/pages/img/icon/sort-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "/pages/img/icon/cart.png",
+				"selectedIconPath": "/pages/img/icon/cart-active.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "个人中心",
+				"iconPath": "/pages/img/icon/profile.png",
+				"selectedIconPath": "/pages/img/icon/profile-active.png"
+			}
+		]
+	}
+}

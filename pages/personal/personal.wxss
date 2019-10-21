@@ -1,0 +1,39 @@
+/* miniprogram/pages/logs/logs.wxss */
+/* 隔行块 */
+page{
+	background: #f7f7f7;
+	color: #222222;
+	font-size:28rpx;
+}
+.avatar{
+	background:#FFEBCD;
+	height: 400rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.avatar image{
+	width: 190rpx;
+	height: 190rpx;
+	border-radius: 50%;
+	border:3rpx solid rgba(0, 0, 0, .3)
+}
+.myOrder text{
+	float: left;
+}
+.myOrder text:nth-child(2){
+	float: right;
+	font-size:24rpx;
+	color:#666;
+}
+.order-item{
+	width:25%;
+	height:100rpx;
+	text-align: center;
+	font-size:28rpx;
+}
+.order-item image{
+	width: 40%;
+	height:40%;
+}
+

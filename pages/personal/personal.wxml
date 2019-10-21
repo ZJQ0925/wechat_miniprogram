@@ -1,0 +1,44 @@
+<!-- 个人中心 -->
+<!-- <view>个人中心</view> -->
+<view>
+<!-- 头像部分 -->
+	<view class='avatar'>
+		<image src='{{headImg}}' lazy-load='true' mode='asectFill' bindtap='onMusicTap'></image>
+	</view>
+	<view class='divider'></view>
+<!-- 我的订单 -->
+<view>
+	<view class='cell '>
+		<view class='cell-item myOrder clearfix'>
+			<text>我的订单</text>
+			<text class='arrow'>查看全部订单</text>
+		</view>
+		<view class='cell-item d-flex'>
+				<view class='order-item' wx:for="{{orderStatus}}" wx:key="item.id">
+					<image src='{{item.img_url}}' lazy-load='true' mode='asectFill'></image>
+					<view>{{item.status}}</view>
+				</view>
+		</view>
+	</view>
+</view>
+<view class='divider'></view>
+<!-- 我的团购 -->
+<view class='cell'>
+	<view class='cell-item arrow '>
+		<image src='{{item.img_url}}' lazy-load='true' mode='asectFill'></image>
+		<navigator>我的团购</navigator>
+	</view>
+</view>
+<!-- 我的优惠券 -->
+<view class='cell'>
+	<view class='cell-item arrow'>我的优惠券</view>
+</view>
+<!-- 签到有奖 -->
+<view class='cell'>
+	<view class='cell-item arrow'>签到有奖</view>
+</view>
+<!-- 邀请好友领劵 -->
+<view class='cell'>
+	<view class='cell-item arrow'>邀请好友领劵</view>
+</view>
+</view>

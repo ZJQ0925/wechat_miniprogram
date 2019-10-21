@@ -1,0 +1,19 @@
+<!--miniprogram/pages/pet/pet.wxml-->
+<view>热卖推荐</view>
+<!-- <view>pet</view>
+<view wx:if="{{age==19}}">年龄为19</view>
+<view wx:if="{{age<19}}">年龄小于19</view>
+<view wx:elif="{{age>19}}">年龄大于19</view>
+<view wx:else>年龄等于19</view>
+<!-- 循环 -->
+<!-- <block wx:for="{{list}}" wx:key="id">
+	<view>{{item.id}}</view>
+	<view>{{index}}</view>
+</block>
+<block wx:for="{{col}}" wx:for-item="i" :key="i.id">
+		<view wx:for="{{row}}" wx:for-item="e" :key="e.id">
+			<view wx:if="{{i<=e}}">
+				{{i}}*{{e}}={{i*e}}
+			</view>
+		</view>
+</block> --> 

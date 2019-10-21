@@ -1,0 +1,32 @@
+{
+  "enablePullDownRefresh": true,
+	"navigationBarTitleText": "个人中心",
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "商城",
+				"iconPath": "/pages/img/icon/home.png",
+				"selectedIconPath": "/pages/img/icon/home-active.png"
+			},
+			{
+				"pagePath": "pages/sort/sort",
+				"text": "分类",
+				"iconPath": "/pages/img/icon/sort.png",
+				"selectedIconPath": "/pages/img/icon/sort-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "/pages/img/icon/cart.png",
+				"selectedIconPath": "/pages/img/icon/cart-active.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "个人中心",
+				"iconPath": "/pages/img/icon/profile.png",
+				"selectedIconPath": "/pages/img/icon/profile-active.png"
+			}
+		]
+	}
+}
